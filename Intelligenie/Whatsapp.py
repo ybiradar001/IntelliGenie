@@ -46,7 +46,7 @@ def sendMessage():
     if "aanchal" in recipient:
         speak("What's the message?")
         message = takeCommand()
-        pywhatkit.sendwhatmsg("+917666379849", message, time_hour=strTime, time_min=update)
+        pywhatkit.sendwhatmsg("+91**********", message, time_hour=strTime, time_min=update)
         speak("Message sent to Aanchal.")
         
         # Wait for a few seconds to ensure the browser has opened and the message is typed
@@ -55,8 +55,8 @@ def sendMessage():
     elif "yallaling" in recipient:
         speak("What's the message?")
         message = takeCommand()
-        pywhatkit.sendwhatmsg("+9193802380", message, time_hour=strTime, time_min=update)
-        speak("Message sent to yallaling.")
+        pywhatkit.sendwhatmsg("+91**********", message, time_hour=strTime, time_min=update)
+        speak("Message sent to ananya.")
         
         # Wait for a few seconds to ensure the browser has opened and the message is typed
         sleep(15)
@@ -64,7 +64,7 @@ def sendMessage():
     elif "vinayak" in recipient:
         speak("What's the message?")
         message = takeCommand()
-        pywhatkit.sendwhatmsg("+917022246648", message, time_hour=strTime, time_min=update)
+        pywhatkit.sendwhatmsg("+91***********", message, time_hour=strTime, time_min=update)
         speak("Message sent to vinayak.")
         
         # Wait for a few seconds to ensure the browser has opened and the message is typed
@@ -73,7 +73,7 @@ def sendMessage():
     elif "pavitra mam" in recipient:
         speak("What's the message?")
         message = takeCommand()
-        pywhatkit.sendwhatmsg("+919663846781", message, time_hour=strTime, time_min=update)
+        pywhatkit.sendwhatmsg("+91***********", message, time_hour=strTime, time_min=update)
         speak("Message sent to Pavithra ma'am.")
         
         # Wait for a few seconds to ensure the browser has opened and the message is typed
